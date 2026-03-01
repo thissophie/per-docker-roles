@@ -1,4 +1,4 @@
-FROM golang:1.24-bookworm@sha256:08268bff0df66aff6d4f7fcf1b625fcf4f86fb7e6dbb5fdb8bb94f0920025ceb as builder
+FROM golang:1.26-bookworm@sha256:2a0ba12e116687098780d3ce700f9ce3cb340783779646aafbabed748fa6677c as builder
 
 WORKDIR /app
 
